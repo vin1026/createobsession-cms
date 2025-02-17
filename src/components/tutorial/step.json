@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_tutorial_steps",
+  "info": {
+    "displayName": "step",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "StepNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "StepDescription": {
+      "type": "blocks",
+      "required": true
+    },
+    "StepImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
